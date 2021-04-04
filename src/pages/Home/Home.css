@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden; /* you can instead put overflow on the body*/
+    font-size:1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  
+  .banner {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgba(153, 0, 255, 0), rgb(155, 112, 255));
+    
+  }
+    
+  .nav {
+    position:sticky;
+    top: 0;
+  }
